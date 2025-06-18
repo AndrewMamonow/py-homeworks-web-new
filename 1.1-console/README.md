@@ -52,5 +52,6 @@ ssh ваш_псевдоним_сервера
 
 # Решение:
 
-    [Скриншот терминала:](/1.1-console/images/Server_connet.PNG)
+[Скриншот терминала:](/1.1-console/images/Server_connet.PNG)
+    
 
