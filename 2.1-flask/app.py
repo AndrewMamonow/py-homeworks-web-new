@@ -9,6 +9,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 app.app_context().push()
 
+# Поля таблицы для хранения объявлений
 class Ad(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(255), nullable=False)
@@ -25,7 +26,7 @@ class Ad(db.Model):
             'owner': self.owner
         }
 
-# Создание таблиц
+# Создание таблицы
 db.create_all()
 
 # Роут для работы с объявлениями
