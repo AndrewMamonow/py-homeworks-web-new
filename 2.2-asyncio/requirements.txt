@@ -1,0 +1,8 @@
+pip install aiohttp
+pip install asyncio
+pip install sqlalchemy
+pip install sqlite3
+pip install aiosqlite
+pip install typing
+
+
